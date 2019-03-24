@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html id="weerpagina">
+	<head>
+		<meta charset="utf-8" />
+		<meta name = "keywords" content="Links, Homepagina" />
+		<meta name = "description" content="Homepagina links voor job" />		
+		<title>Homepagina</title>
+		<link rel="stylesheet" type="text/css" href="../css/css.css" />
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+		<script src="../script/newscript.js"></script>
+
+	</head>
+	 <body onload="startTime(),getdate()">
+		<section id="hoofdpagina">
+			<header id="hoofdpaginaheadweer">
+				<h1>Weer</h1>
+				<nav id="hoofdmenunav">
+					<ul id="hoofdmenu">
+						<li class="submenu"><a class="link" href="index.html">Homepagina</a></li>
+						<li class="submenu"><a class="link" href="School.html">School</a></li>
+						<li class="submenu"><a class="link"href="#">Werk</a></li>
+					</ul>
+				</nav>				
+			</header>	
+									
+				<section id="linken">
+						<section id="eerste-rij">
+								<article class="act1">
+									<a href="https://www.buienradar.nl" target="_blank" title="Buienradar" id="buienradar"></a>
+								</article>
+								
+								<article class="act2">
+									<a href="http://www.buienalarm.nl/location/alkmaar" target="_blank" title="Buienalarm" id="buienalarm"></a>
+								</article> 
+								
+								<article class="act3">
+									<a href="https://www.accuweather.com/nl/nl/alkmaar/249550/hourly-weather-forecast/249550" target="_blank" title="Accuweather" id="accuweather"></a>
+								</article>					
+						</section>
+						<section id="tweede-rij">
+								<article class="act1">
+									<a href="https://www.knmi.nl/nederland-nu/weer/verwachtingen" target="_blank" title="KNMI weer" id="knmi"></a>
+								</article>
+						</section>	
+				</section>
+		</section>
+		
+			<aside id="extra">
+				<header id="sidepaginaheadweer">
+					<p id="clock"></p>
+				</header>
+				
+				<header id="sidepaginaheadsub">
+					<h3>Vandaag is het </h3>
+					<nav id="datummenunav">
+						<ul id="datummenu">
+							<li class="datumsubmenu"><p id="dag"></p></li>
+							<li class="datumsubmenu"><p id="datum"></p></li>
+							<li class="datumsubmenu"><p id="maand"></p></li>
+							<li class="datumsubmenu"><p id="jaar"></p></li>
+						</ul>
+					</nav>	
+				</header>
+				
+				<section id="googlebox">
+					<input class="googlesearch" type="text" placeholder="Google search..." id="googleinfo" onkeydown="google(event)"/>
+					<input class="googlekey"  type="button" value="Zoeken" onclick="googlekey()" />				
+				</section>
+				
+				<section id="weer">
+				<a id="weerradar" href="https://www.buienradar.nl" target="blank" ><img border="0" src="https://api.buienradar.nl/image/1.0/RadarMapNL?w=500&h=512"></a>
+				</section>
+			
+			</aside>
+	</body>	
+</html>
+
+
+
+
+
+
+
+
+
+

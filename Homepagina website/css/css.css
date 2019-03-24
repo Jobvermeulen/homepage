@@ -1,0 +1,513 @@
+html{
+	padding-top:10px;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+
+#homepagina{
+	background-image:url("../content/pompoen.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#weerpagina{
+	background-image:url("../content/groen-beestje.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#schoolpagina{
+	background-image:url("../content/WorkLikeABosswallpaper_LeysaFlores.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+Body{
+	width: 1300px;
+	height: 892.7px;
+	border-radius:2px;
+	margin:auto;
+}
+#hoofdpagina{
+	background-color: rgba(255,255,255,0.65);
+	height: 892.7px;
+	width: 700.2px;
+}
+/*hoofd*/
+#hoofdpaginahead{
+	width: 680.2px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#575254;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+/* weer */
+#hoofdpaginaheadweer{
+	width: 680.2px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#354435;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+/* school */
+#schoolpaginahead{	
+	width: 680.2px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#a4b96e;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+
+h1{
+	font-family:Bahnschrift;
+	font-size:4em;
+	color:#E7F7FF;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+	margin:0;
+}
+#hoofdmenunav{
+	float:left;
+	width:680.2px;
+	height:58px;
+	margin-top:25px;
+}
+
+#hoofdmenu{
+    list-style:none;
+    text-align:center;
+	background-color:#DAE0EC;
+	height:58px;
+	margin:0px;
+	padding:0px;
+}
+
+#hoofdmenu .submenu{
+	display:inline-block;
+	margin:0% 5% 0% 5%;
+	margin-top:10px;
+	transform: skewX(-4deg);
+}
+
+.link{
+	text-decoration:none;
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:2em;
+	font-weight:lighter;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.link:hover{
+	color:#A6CC5A;
+}
+
+
+/*Linken*/
+
+#eerste-rij{
+	width:680.2px;
+	height:213px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+}
+#tweede-rij{
+	width:680.2px;
+	height:213px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+}
+#derde-rij{
+	width:680.2px;
+	height:213px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+}
+article{
+	width:213px;
+	height:213px;
+	float:left;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+article:hover{
+	box-shadow: 10px 10px 12px rgba(0,0,0,.4);
+}
+
+.act1{
+	margin-right:20.6px;
+}
+.act2{
+	margin-right:20.6px;
+}
+.act3{
+	margin:0px;	
+}
+/*homepagina*/
+		/*eerste rij*/
+		#youtube{
+			background-image:url("../content/youtube.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+
+		#Inholland{
+			background-image:url("../content/inholland.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+
+		#tweakers{
+			background-image:url("../content/tweakers.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		/*tweede rij*/
+		#dumpert{
+			background-image:url("../content/dumpert.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#pexels{
+			background-image:url("../content/pexels.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#whatsapp{
+			background-image:url("../content/whatsapp.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		/*derde rij*/
+		#googlemaps{
+			background-image:url("../content/googlemaps.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#googledrive{
+			background-image:url("../content/googledrive.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#googlefotos{
+			background-image:url("../content/googlefoto.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+
+/*weerpagina*/
+		/* eerste rij */
+		#buienradar{
+			background-image:url("../content/buienradar.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#buienalarm{
+			background-image:url("../content/buienalarm.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#accuweather{
+			background-image:url("../content/accuweather.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		/*tweede rij*/
+		#knmi{
+			background-image:url("../content/KNMI.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		
+/* School pagina*/
+		/* eerste rij */
+		#Inholland{
+			background-image:url("../content/inholland.svg");
+			display:block;
+			width:213px;
+			height:213px;
+		}
+		#blackboard{
+			background-image:url("../content/default-image.png");
+			display:block;
+			width:213px;
+			height:213px;
+			background-size: cover;
+			background-position: center;
+		}
+		#Cijfers_aanmelden{
+			background-image:url("../content/default-image.png");
+			display:block;
+			width:213px;
+			height:213px;
+			background-size: cover;
+			background-position: center;			
+		}
+
+
+
+/*aside rij*/
+#extra{
+	background-color: rgba(255,255,255,0.65);
+	height: 892.7px;
+	width: 559.8px;
+	float: right;
+	z-index:99;
+	margin-top:-892.7px;
+}
+
+/*aside head pagina*/
+#sidepaginahead{
+	width: 539.8px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#575254;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+#sidepaginaheadweer{
+	width: 539.8px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#354435;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+#sidepaginaheadschool{
+	width: 539.8px;
+	height: 160px;
+	margin-top:13.3px;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#a4b96e;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+}
+#sidepaginaheadsub{
+	background-color:#DAE0EC;
+	z-index:200;
+	float:left;
+	width:539.8px;
+	height:58px;
+	margin-top:-58px;
+	margin-left:10px;
+	text-align:center;
+}
+#clock{
+	font-family:Bahnschrift;
+	font-size:4em;
+	color:#E7F7FF;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+	margin:0;
+}
+h2{
+	font-family:Bahnschrift;
+	font-size:4em;
+	color:#E7F7FF;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+	margin:0;
+}
+h3{
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:1.5em;
+	font-weight:lighter;
+	margin-top:20px;
+	margin-left:10px;
+	float:left;
+	transform: skewX(-4deg);
+}
+#datum{
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:1.5em;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+}
+#dag{
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:1.5em;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+}
+#maand{
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:1.5em;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+}
+#jaar{
+	color:#001E2C;
+	font-family:Bahnschrift;
+	font-size:1.5em;
+	font-weight:lighter;
+	transform: skewX(-4deg);
+}
+#datummenunav{
+	float:right;
+	width:330px;
+	padding:0px;
+	margin-top:-20px;
+	margin-right:40px;
+}
+#datummenu{
+	list-style:none;
+	padding:0px;
+}
+#datummenu .datumsubmenu{
+	display:inline-block;
+	margin:0% 1% 0% 1%;
+	transform: skewX(-4deg);
+}
+.datumsubmenu{
+	float:left;
+}
+/*agenda*/
+#agenda{
+	width:535.8px;
+	height:535.8px;
+	margin:10px;
+	border:2px solid #DAE0EC;
+}
+/*Weer*/
+#weer{
+	float:left;
+	margin-left:10px;
+	border: 5px solid #DAE0EC;
+	width: 529.8px;
+	height:542px;
+}
+#weerradar{
+	float:left;
+	padding:14.9px;
+}
+
+/* Google */
+#googlebox{
+	float: left;
+	margin-left:10px;
+	border: 2px solid #DAE0EC;
+	width:536px;
+	height:50px;
+	background-color:#DAE0EC;	
+}
+
+.googlesearch{
+	border: 2px solid #DAE0EC;
+	/* margin-top: 9px; */
+	/* margin-bottom: 10px; */
+	width: 424px;
+	height: 25px;
+	margin:9px 0px 9px 9px;
+	font-family: Bahnschrift;
+	font-weight: lighter;
+	background-color: #3d5fab;
+    color: white;
+	padding-left:5px;
+	border-radius: 1px;
+}
+
+.googlekey{
+	border: 2px solid #DAE0EC;
+	width: 80px;
+	height: 31px;
+	font-family: Bahnschrift;
+	font-weight: lighter;
+	background-color: #3d5fab;
+	color: white;
+	border-radius: 1px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.googlekey:hover{
+	border: 2px solid #DAE0EC;
+	width: 80px;
+	height: 31px;
+	font-family: Bahnschrift;
+	/* font-weight: lighter; */
+	background-color: #2d4479;
+	color: white;
+	border-radius: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

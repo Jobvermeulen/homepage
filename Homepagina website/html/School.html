@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html id="schoolpagina">
+	<head>
+		<meta charset="utf-8" />
+		<meta name = "keywords" content="Links, School" />
+		<meta name = "description" content="Handige school pagina linkjes voor Job" />		
+		<title>School pagina</title>
+		<link rel="stylesheet" type="text/css" href="../css/css.css" />
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+		<script src="../script/newscript.js"></script>
+
+	</head>
+	 <body onload="startTime(),getdate()">
+		<section id="hoofdpagina">
+			<header id="schoolpaginahead">
+				<h1>Homepagina</h1>
+				<nav id="hoofdmenunav">
+					<ul id="hoofdmenu">
+						<li class="submenu"><a class="link" href="weer.html">Weer</a></li>
+						<li class="submenu"><a class="link" href="index.html">Homepagina</a></li>
+						<li class="submenu"><a class="link"href="#">Werk</a></li>
+					</ul>
+				</nav>				
+			</header>	
+									
+				<section id="linken">
+						<section id="eerste-rij">
+								<article class="act1">
+									<a href="https://insite.inholland.nl/CookieAuth.dll?GetLogon?curl=Z2F&reason=0&formdir=3" target="_blank" title="Inholland insite" id="Inholland"></a>
+								</article> 
+						
+								<article class="act2">
+									<a href="https://bb.inholland.nl" target="_blank" title="Blackboard" id="blackboard"></a>
+								</article>						
+																
+								<article class="act3">
+									<a href="https://studentportal.inholland.nl/psc/CS92PRD/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL" target="_blank" title="Cijfers en aanmelden" id="Cijfers_aanmelden"></a>
+								</article>					
+						</section>
+
+						
+				</section>
+		</section>
+		
+			<aside id="extra">
+				<header id="sidepaginaheadschool">
+					<h4 id="clock"></h4>
+				</header>
+				
+				<header id="sidepaginaheadsub">
+					<h3>Vandaag is het </h3>
+					<nav id="datummenunav">
+						<ul id="datummenu">
+							<li class="datumsubmenu"><p id="dag"></p></li>
+							<li class="datumsubmenu"><p id="datum"></p></li>
+							<li class="datumsubmenu"><p id="maand"></p></li>
+							<li class="datumsubmenu"><p id="jaar"></p></li>
+						</ul>
+					</nav>	
+				</header>
+				
+				<section id="googlebox">
+					<input class="googlesearch" type="text" placeholder="Google search..." id="googleinfo" onkeydown="google(event)"/>
+					<input class="googlekey"  type="button" value="Zoeken" onclick="googlekey()" />				
+				</section>
+
+				<!-- <iframe id="agenda" src="https://calendar.google.com/calendar/embed?src=jobvermeulen%40gmail.com&ctz=Europe%2FAmsterdam"></iframe> -->
+			</aside>
+	</body>	
+</html>
+
+
+
+
+
+
+
+
+
+
